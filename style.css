@@ -1,0 +1,89 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 100%;
+    height: 500px;
+    background: url(img/mers.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.title {}
+
+.titleText {}
+
+.subtitleText {}
+
+.advantages {}
+
+.advantageList {
+    padding: 0;
+    margin: 0;
+}
+
+.advantageItem {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.okCheckmark {
+    height: 19px;
+    margin-right: 15px;
+}
+
+.order {
+    background-color: rgba(71, 181, 43, 0.453);
+    border-radius: 25px;
+    height: 300px;
+    margin-top: 60px;
+    margin-left: 50px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.orderTitle {
+    margin-bottom: 10px;
+}
+
+.rentDate {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+
+.orderSubtitle {}
+
+.carTypeList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carTypeItem {
+    width: 33%;
+}
+
+.fullSelectionButton {}
+
+.DateSelection {
+    border-radius: 10px;
+    border: 0px;
+    width: 40%;
+}
